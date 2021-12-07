@@ -6,9 +6,6 @@ var names = [
 ]; // used to generate posts for this tutorial
 
 const getPosts = (number) => {
-  // generate a number of posts
-  // in a real setting, this would be a database call or algorithm
-
   let ret = [];
 
   for (var i = 0; i < number; i++) {

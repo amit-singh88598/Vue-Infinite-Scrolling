@@ -16,6 +16,7 @@ export default {
 
   setup() {
     const posts = ref(getPosts(2));
+
     const scrollComponent = ref(null);
 
     const loadMorePosts = () => {

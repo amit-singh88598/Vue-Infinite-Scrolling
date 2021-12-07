@@ -14,7 +14,7 @@ export default {
 <style scoped>
 .post {
   background: #fff;
-  padding: 1.5em;
+  padding: 5em;
 }
 
 .post:not(:last-child) {
