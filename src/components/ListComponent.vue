@@ -15,12 +15,12 @@ export default {
   },
 
   setup() {
-    const posts = ref(getPosts(2));
+    const posts = ref(getPosts(4));
 
     const scrollComponent = ref(null);
 
     const loadMorePosts = () => {
-      let newPosts = getPosts(2);
+      let newPosts = getPosts(4);
       posts.value.push(...newPosts);
     };
 
