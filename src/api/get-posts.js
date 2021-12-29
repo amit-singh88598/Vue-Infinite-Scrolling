@@ -11,8 +11,8 @@ const getPosts = (number) => {
   for (var i = 0; i < number; i++) {
     ret.push({
       author: names[i % names.length],
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+      // content:
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
     });
   }
 
